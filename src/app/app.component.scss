@@ -1,0 +1,19 @@
+::ng-deep app-dynamic{
+    display: contents;
+}
+.btn-default{
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 2px 8px;
+    &:focus{
+        box-shadow: none;
+    }
+}
+.default-border{
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.menu-form{
+    max-width: 400px;
+    padding: 10px;
+}
